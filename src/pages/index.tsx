@@ -31,7 +31,7 @@ const IndexPage: React.FC = () => {
               </CardContent>
             </Card>
           </Grid>
-          <Grid>
+          <Grid item xs={12}>
             <Typography variant="h5" component="h2">
               TAKEOUTサイト一覧
             </Typography>
