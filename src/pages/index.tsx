@@ -36,7 +36,7 @@ const IndexPage: React.FC = () => {
               TAKEOUTサイト一覧
             </Typography>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardActionArea href="https://kawasaki.takeout.dev">
                 <CardContent>
@@ -45,6 +45,20 @@ const IndexPage: React.FC = () => {
                   </Typography>
                   <Typography variant="body2" component="p">
                     神奈川県川崎市の持ち帰り・テイクアウト店舗を紹介しています
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card variant="outlined">
+              <CardActionArea href="https://yokohama.takeout.dev">
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    TAKEOUT＠横浜
+                  </Typography>
+                  <Typography variant="body2" component="p">
+                    神奈川県横浜市の持ち帰り・テイクアウト店舗を紹介しています
                   </Typography>
                 </CardContent>
               </CardActionArea>
